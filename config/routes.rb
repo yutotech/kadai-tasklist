@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
-  get 'sessions/crate'
-  get 'sessions/destroy'
     root to: "tasks#index"
     resources :tasks
 
